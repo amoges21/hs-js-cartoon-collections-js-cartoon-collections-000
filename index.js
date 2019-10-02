@@ -75,3 +75,14 @@ function findTheCheese (foods)
     }
   }
 }
+
+
+function wordswithb (words)
+{
+  for (let int5 = 0 ; int5 < words.length ; ++int5)
+  {
+    
+    if (words[int5])
+    
+  }
+}
