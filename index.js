@@ -3,7 +3,7 @@ var int2;
 var int3;
 var int4;
 
-var typesofcheese = ["cheddar" , "gouda" , "camembert"];
+var typesofcheese = ["cheddar" , "gouda" , "camembert" , "swiss"];
 
 
 function dwarfRollCall(dwarves) 
