@@ -10,17 +10,15 @@ function dwarfRollCall(dwarves)
 {
   var thestring = "";
   
-  for (int1 = 0 ; int1 < dwarves.length ; ++int1)
+  for (int1 = 0 ; int1 < dwarves.length / 2 ; ++int1)
   {
     var thenumber = int1 + 1;
     
  thestring = thestring + thenumber + ". " + dwarves[int1] + " ";
     
-    if (int1 === dwarves.length -1)
-    {
-          return thestring;
-    }
-  }
+   
+  }  return thestring;
+
 }
 
 
